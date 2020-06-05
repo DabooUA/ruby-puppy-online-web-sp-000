@@ -10,7 +10,9 @@ def initialize(name)
   self.save
 end
 
-
+def self.all
+  @all
+end
 
 def self.all
    @@all.each do |dog|
