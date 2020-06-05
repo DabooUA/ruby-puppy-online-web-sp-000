@@ -29,8 +29,8 @@ def self.all
    end
  end
 
- def save
-   @@all << self
+ def save=(save)
+   save.@@all << self
  end
 
 end
