@@ -11,10 +11,8 @@ def self.all
   @all
 end
 
-def return_all
-  all_dogs = @@all.each do |dogs_list|
-    return dogs_list
-  end
+def return_all_dogs
+  return @@all
 end
 
 end
