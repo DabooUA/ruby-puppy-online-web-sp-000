@@ -30,7 +30,7 @@ def self.all
    end
  end
 
- def save
+ def save=(save)
    @save << self
  end
 
