@@ -11,8 +11,14 @@ def self.all
   @all
 end
 
-def return_all_dogs
-  return @@all
-end
+def self.all
+   @@all.each do |dog|
+     puts dog.name
+   end
+ end
+
+ def self.clear_all
+   @@all.clear
+ end
 
 end
