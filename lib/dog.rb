@@ -27,5 +27,6 @@ def self.all
    @@all.each do |dog|
      print dog.name
    end
+ end
 
 end
