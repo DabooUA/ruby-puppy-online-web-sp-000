@@ -31,7 +31,7 @@ def self.all
  end
 
  def save=(save)
-   @save << self
+   @save = self
  end
 
 end
