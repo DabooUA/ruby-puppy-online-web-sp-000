@@ -33,6 +33,6 @@ def self.all
  def save=(save)
    @save = save
  end
-   
+
 
 end
